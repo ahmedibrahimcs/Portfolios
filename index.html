@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolios</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="about">
+      <div class="container-about">
+        <div class="name">
+          <h2>Ahmed Ibrahim</h2>
+          <h4>I'm Programmer & Web Developer</h4>
+          <p>
+            I'm graduated at college of Science<br />
+            Salahaddin University/ College of Science/ Computer department<br />
+            Bachelors in Computer Science
+          </p><br>
+
+          <a class="btn" href="https://github.com/ahmedibrahimcs" target="_blank">View GitHub</a>
+        </div>
+        
+        <div class="my-photo">
+          <img src="ahmedphoto.jpg" alt="ahmed" id="my-photo" />
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h3 class="name-header">Skills</h3>
+      <div class="container-skills">
+        <div class="item-skills">
+          <div class="item-skills-content">
+            <img src="img/html.png" alt="" width="70px" height="70px" />
+            <h4>HTML</h4>
+          </div>
+        </div>
+
+        <div class="item-skills">
+          <div class="item-skills-content">
+            <img src="img/css.png" alt="" width="70px" height="70px" />
+            <h4>CSS</h4>
+          </div>
+        </div>
+
+        <div class="item-skills">
+          <div class="item-skills-content">
+            <img src="img/bootstrap.png" alt="" width="70px" height="70px" />
+            <h4>BootStrap</h4>
+          </div>
+        </div>
+      
+        <div class="item-skills">
+          <div class="item-skills-content">
+            <img src="img/js.png" alt="" width="70px" height="70px" />
+            <h4>JavaScript</h4>
+          </div>
+        </div>
+
+        <div class="item-skills">
+          <div class="item-skills-content">
+            <img src="img/csh.png" alt="" width="70px" height="70px" />
+            <h4>C#</h4>
+          </div>
+        </div>
+
+        <div class="item-skills">
+          <div class="item-skills-content">
+            <img src="img/sqlserver.png" alt="" width="70px" height="70px" />
+            <h4>SQL Server</h4>
+          </div>
+        </div>
+
+    </section>
+
+    <section id="projects">
+      <h3 class="name-header">Projects</h3>
+      <div class="card-projects">
+        <div class="card-projects-content">
+          <img src="img/fastfood.png" alt="" class="img-card-project" />
+          <br/>
+          <h4>Fast Food</h4>
+          <p>Create By C# AND SQL Server</p>
+          <br>
+          <button class="btn">View</button>
+        </div>
+
+        <div class="card-projects-content">
+          <img src="img/Kurdistan.png" alt="" class="img-card-project" />
+          <br/>
+          <h4>Kurdistan Citeis</h4>
+          <p>Create By HTML AND BootStrap</p>
+          <br>
+          <button class="btn">View</button>
+        </div>
+
+
+      </div>    
+
+    </section>
+  <br>
+
+    <section id="contact">
+      <h3 class="name-header">Contact</h3>
+      <div class="contect-content">
+        <form action="/action_page.php">
+          <label for="fname">Name</label>
+          <input type="text"   placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" placeholder="Your Email..">
+      
+          <label for="country">Message</label>
+          <textarea
+              class="form-control"
+              placeholder="Write your message here"
+              id="floatingTextarea"
+            ></textarea>
+        
+          <input type="submit" value="Submit">
+        </form>
+       
+      </div>    
+
+    </section>
+
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
